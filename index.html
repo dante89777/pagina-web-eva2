@@ -10,17 +10,33 @@
 <h2>Registro de Colaboradores</h2>
 
 <form onsubmit="return registrar()">
-
-  <input type="text" id="nombre" placeholder="Nombre"><br><br>
-  <input type="text" id="apellido" placeholder="Apellido"><br><br>
-  <input type="text" id="cargo" placeholder="Cargo"><br><br>
-  <input type="text" id="correo" placeholder="Correo"><br><br>
+  <input type="text" id="nombre" placeholder="Nombre"><br>
+  <input type="text" id="apellido" placeholder="Apellido"><br>
+  <input type="text" id="cargo" placeholder="Cargo"><br>
+  <input type="text" id="correo" placeholder="Correo"><br>
 
   <button type="submit">Registrar</button>
-
 </form>
 
 <p id="error" style="color:red;"></p>
+
+<br>
+
+<input type="text" id="buscar" placeholder="Buscar..." onkeyup="filtrar()">
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Cargo</th>
+      <th>Correo</th>
+      <th>Acción</th>
+    </tr>
+  </thead>
+
+  <tbody id="tabla"></tbody>
+</table>
 
 </body>
 </html>
