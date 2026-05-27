@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "cargo": "Desarrollador",
+    "correo": "juan@empresa.cl"
+  },
+  {
+    "id": 2,
+    "nombre": "Maria",
+    "apellido": "Gomez",
+    "cargo": "Diseñadora",
+    "correo": "maria@empresa.cl"
+  },
+  {"id": 3,
+    "nombre": "Carlos",
+    "apellido": "Lopez",
+    "cargo": "Gerente",
+    "correo": "carlos@empresa.cl"
+   }
+]
